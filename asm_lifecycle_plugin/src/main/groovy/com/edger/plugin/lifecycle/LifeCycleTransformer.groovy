@@ -8,7 +8,7 @@ import org.objectweb.asm.ClassReader
 import org.objectweb.asm.ClassVisitor
 import org.objectweb.asm.ClassWriter
 
-public class LifeCycleTransformer extends Transform {
+class LifeCycleTransformer extends Transform {
 
     @Override
     String getName() {
@@ -40,14 +40,14 @@ public class LifeCycleTransformer extends Transform {
             outputProvider.deleteAll()
         }
 
-        transformInputs.each { TransformInput transformInput ->
+        transformInputs.each { transformInput ->
             // 遍历 directoryInputs(文件夹中的 class 文件)
             // directoryInputs 代表着以源码方式参与项目编译的所有目录结构及其目录下的源码文件
             // 比如我们手写的类以及 R.class、BuildConfig.class 以及 MainActivity.class 等
-            transformInput.directoryInputs.each { DirectoryInput directoryInput ->
+            transformInput.directoryInputs.each { directoryInput ->
                 File dir = directoryInput.file
                 if (dir) {
-                    dir.traverse(type: FileType.FILES, nameFilter: ~/.*\.class/) { File file ->
+                    dir.traverse(type: FileType.FILES, nameFilter: ~/.*\.class/) { file ->
                         System.out.println("find class: " + file.name)
                         // 对 class 文件进行读取与解析
                         ClassReader classReader = new ClassReader(file.bytes)

@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.5",
-      "buildId": "t5od3lmlw5gsznsyfg2752smba"
+      "buildId": "vkf2bab7ure45kftcjix42tht4"
     }
   },
   "variants": [
@@ -28,11 +28,11 @@
         {
           "name": "lifecycle-1.0.0.jar",
           "url": "lifecycle-1.0.0.jar",
-          "size": 15833,
-          "sha512": "fc07b2986ac3b85c7ef479c0a65bf39187402dd39d11d8a43cec77f6b80ee715403ab22f672da42facd1747eb660e70a2d4bb2c57d9807578ba0a8a612d8f5db",
-          "sha256": "bbda3e9bf53fa2f9bb70dea04006e4f764fd59670e8283c497305496228a4b69",
-          "sha1": "468e064e7fb5202b1e8a387143b8e3b408196d22",
-          "md5": "a4858c0ac32f34950b50db8c338cb1c1"
+          "size": 15548,
+          "sha512": "74811a3eff48ca493a5023ed11195b851ddb8eb3dd51d6c7801c4d66fadd499ec0990a4e258fa7c5ee2b076d63cb4bf7cbc8909cf664b0ac48e1973825b46f43",
+          "sha256": "ef6774c8f0bcf80e07ce5f01d7af1639089e5f1a84078b603a80f24e5b5ba088",
+          "sha1": "f6986b7335a896b3669234f47150a3ab015d101e",
+          "md5": "c2c27c3cba73d2e398fa2d05a26118d5"
         }
       ]
     },
@@ -72,11 +72,11 @@
         {
           "name": "lifecycle-1.0.0.jar",
           "url": "lifecycle-1.0.0.jar",
-          "size": 15833,
-          "sha512": "fc07b2986ac3b85c7ef479c0a65bf39187402dd39d11d8a43cec77f6b80ee715403ab22f672da42facd1747eb660e70a2d4bb2c57d9807578ba0a8a612d8f5db",
-          "sha256": "bbda3e9bf53fa2f9bb70dea04006e4f764fd59670e8283c497305496228a4b69",
-          "sha1": "468e064e7fb5202b1e8a387143b8e3b408196d22",
-          "md5": "a4858c0ac32f34950b50db8c338cb1c1"
+          "size": 15548,
+          "sha512": "74811a3eff48ca493a5023ed11195b851ddb8eb3dd51d6c7801c4d66fadd499ec0990a4e258fa7c5ee2b076d63cb4bf7cbc8909cf664b0ac48e1973825b46f43",
+          "sha256": "ef6774c8f0bcf80e07ce5f01d7af1639089e5f1a84078b603a80f24e5b5ba088",
+          "sha1": "f6986b7335a896b3669234f47150a3ab015d101e",
+          "md5": "c2c27c3cba73d2e398fa2d05a26118d5"
         }
       ]
     }
